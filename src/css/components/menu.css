@@ -1,0 +1,116 @@
+.menu {
+    visibility: hidden;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-image: url('/assets/img/fonddecranmenu.avif');
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 120px 70px 40px;
+    transform: translateX(100vw);
+    transition: all 0.3s ease-in-out;
+}
+
+.menu[aria-hidden="false"] {
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.menu__link {
+    color: rgb(255, 255, 255);
+    font-family: 'orbitron', medium;
+    text-decoration: none;
+    font-size: 24px;
+    display: block;
+    align-items: center;
+    z-index: 10;
+    margin-bottom: 40px;
+    rig;
+}
+.menu__item {
+    list-style: none;;
+}
+.menu__logo {
+    width: 80px;
+    display: flex;
+    margin-top: 25px;
+}
+.menu__link--silent {
+    color: #7b7b7b;
+    font-size: 0.875rem;
+}
+
+.menu__titre {
+    color: rgb(255, 255, 255);
+    font-family: 'orbitron', medium;
+    font-size: 24px;
+    display: block;
+    align-items: center;
+    z-index: 10;
+    margin-bottom: 40px;
+    margin-top: -70px;
+    margin-left: 80px;
+}
+
+
+
+
+.menu-btn {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
+    content: "";
+    background: rgb(0, 0, 0);
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    transition: all 0.4s ease-in-out;
+}
+
+.menu-btn__bar::before {
+    top: -10px;
+}
+
+.menu-btn__bar::after {
+    top: 10px;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar {
+    transform: rotate(-45deg);
+    background-color: white;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before {
+    transform: rotate(-90deg);
+    top: 16px;
+    left: -15px;
+    background-color: white;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 16px;
+    left: -15px;
+    background-color: white;
+}

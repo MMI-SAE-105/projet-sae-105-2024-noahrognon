@@ -1,0 +1,40 @@
+/* Conteneur principal */
+.hero {
+    position: relative;
+    width: 100%; /* Occupe toute la hauteur de l'écran */
+    overflow: hidden; /* Cache tout dépassement */
+}
+
+/* Image de fond */
+.hero__img {
+    width: 100%;
+    object-fit: cover; /* Garde les proportions et couvre tout */
+    filter: brightness(0.8); /* Assombrit légèrement l'image */
+}
+
+
+/* Texte principal */
+.hero__title {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    margin: 0;
+    z-index: 5; /* Assure que le texte est au-dessus de l'image */
+}
+
+.hero__text {
+    position: absolute;
+    top: 245px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 0;
+    z-index: 5;
+}
+

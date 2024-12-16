@@ -1,0 +1,44 @@
+.language-switcher {
+    display: flex;
+    gap: 10px;
+    /* Espacement entre les éléments */
+}
+
+.lang {
+    text-decoration: none;
+    /* Retire le soulignement */
+    color: DDC9FD;
+    /* Couleur par défaut */
+    font-weight: 600;
+    padding: 5px 10px;
+    border: 2px solid transparent;
+    /* Bordure invisible */
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.lang:hover {
+    border-bottom: 2px solid DDC9FD;
+    /* Ligne en bas au survol */
+    color: #DDC9FD;
+    /* Couleur grisée */
+}
+
+.lang.active {
+    color: white;
+    background-color: #D4E6F1;
+    border-radius: 20px;
+    /* Rend le fond arrondi */
+    border: 2px solid #DDC9FD;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}

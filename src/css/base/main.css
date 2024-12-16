@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #00BFA6;
+    padding: 20px;
+}
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    font-weight: medium;
+    color: #00BFA6;
+    padding: 20px;
+    text-align: center;
+}
+h3 {
+    font-family: 'Orbit', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #00BFA6;
+    padding: 20px;
+}
+p {
+    font-family: 'orbit';
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px;
+    color: #741EFC;
+}
+body {
+    background-color: #D4E6F1;
+}*/* Styles communs aux deux boutons */
+.btn {
+    display: inline-block;
+    background-color: #1e499c;
+    /* Couleur bleu */
+    color: #f0c0ff;
+    /* Texte rose clair */
+    border: none;
+    border-radius: 20px;
+    /* Coins arrondis */
+    padding: 10px 20px;
+    /* Espace interne */
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    /* Supprime le soulignement */
+    transition: background 0.3s ease;
+    /* Effet fluide */
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #15376d;
+    /* Bleu plus foncé au survol */
+    color: white;
+    /* Texte en blanc */
+}
