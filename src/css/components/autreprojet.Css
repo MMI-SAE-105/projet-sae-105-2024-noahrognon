@@ -1,0 +1,33 @@
+.autreprojet {
+    background-color:#DDC9FD ;
+    border-radius: 20px;
+    padding: 20px 0;
+    margin: 20px;
+    margin-bottom: 15px;
+    
+}
+.autreprojet__titre {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.btn__autreprojet {
+    display: inline-block;
+    background-color: #1e499c;
+    color: #f0c0ff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.btn__autreprojet:hover {
+    background-color: #15376d;
+    color: white;
+}
