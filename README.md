@@ -6,5 +6,5 @@
 - NOM : Rognon
 - PRÉNOM : Noah 
 - GROUPE : C2
-- URL du site : https://eredesprothèses.noahrognon.fr  
+- URL du site : https://eredesprotheses.noahrognon.fr/
 - URL FIGMA : https://www.figma.com/design/fJj6zySxZWbKnqHRZl9I3i/Maquettes-projet-individuel-%E2%80%94-pr%C3%A9nom-NOM-(Copy)?node-id=3703-119&t=49Zwfll0RoVkSrSX-1 
