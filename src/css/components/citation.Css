@@ -1,0 +1,23 @@
+/* Style de la citation */
+.citation {
+    background-color: #518baf;
+    /* Couleur de fond bleu clair */
+    color: #4a4a4a;
+    /* Couleur du texte en gris foncé */
+    font-style: italic;
+    /* Texte en italique */
+    padding: 1px 2px;
+    /* Espacement interne */
+    border-left: 5px solid #7a9fb8;
+    /* Barre verticale bleue à gauche */
+    margin: 20px 0;
+    /* Espacement extérieur pour la citation */
+    font-family: 'Orbit';
+    /* Police élégante */
+    line-height: 1.6;
+    /* Hauteur de ligne */
+    text-align: justify;
+    /* Justifie le texte */
+    border-radius: 5px;
+    /* Coins légèrement arrondis */
+}

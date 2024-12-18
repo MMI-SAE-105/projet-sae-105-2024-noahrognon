@@ -1,0 +1,18 @@
+.imformation__temps {
+    font-size: 12px;
+    padding: 0px;
+    margin: 25px;
+    margin-top: -25px;
+}
+
+.imformation__qui {
+    font-size: 12px;
+    padding: 0px;
+    margin: 10px;
+    margin-top: -10px;
+}
+
+.imformation__img {
+    width: 20px;
+    margin-top: 15px;
+}

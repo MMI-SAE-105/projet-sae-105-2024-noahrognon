@@ -1,0 +1,34 @@
+.timeline-container {
+    width: 90%;
+    margin: 30px auto;
+    overflow-x: auto;
+    /* Scroll horizontal activé */
+    white-space: nowrap;
+    /* Éléments sur une seule ligne */
+    position: relative;
+    background-color: #e1c5f6;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.timeline {
+    display: inline-flex;
+    gap: 30px;
+    padding: 10px;
+}
+
+.event {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: relative;
+}
+
+
+.legende {
+    margin: 20px;
+    font-family: 'Orbit', sans-serif;
+    color: #741EFC;
+}
