@@ -7,41 +7,36 @@ menuBtn.addEventListener('click', () => {
     menu.setAttribute('aria-hidden', expanded);
     menu.classList.toggle('active');
 });
-// Sélection des éléments du DOM
+
 const carouselContent = document.querySelector('.carousel-content');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById('next');
 
-// Variables pour gérer l'index
 let currentIndex = 0;
 const items = document.querySelectorAll('.carousel-item');
 const totalItems = items.length;
 
-// Fonction pour déplacer le carousel
 function updateCarousel() {
-    const offset = -currentIndex * 100; // Calcule le décalage
+    const offset = -currentIndex * 100;
     carouselContent.style.transform = `translateX(${offset}%)`;
 }
 
-// Bouton "Suivant"
 nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % totalItems; // Boucle vers le début
+    currentIndex = (currentIndex + 1) % totalItems;
     updateCarousel();
 });
 
-// Bouton "Précédent"
 prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + totalItems) % totalItems; // Boucle vers la fin
+    currentIndex = (currentIndex - 1 + totalItems) % totalItems;
     updateCarousel();
 });
 
-// Initialisation
 updateCarousel();
 
 const timelineContainer = document.querySelector('.timeline-container');
 const leftButton = document.querySelector('.scroll-button.left');
 const rightButton = document.querySelector('.scroll-button.right');
-const scrollStep = 300; // Distance de défilement
+const scrollStep = 300;
 
 rightButton.addEventListener('click', () => {
     timelineContainer.scrollBy({ left: scrollStep, behavior: 'smooth' });
