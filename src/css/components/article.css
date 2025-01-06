@@ -2,7 +2,7 @@
     background-color: #DDC9FD;
     border-radius: 20px;
     padding: 30px 20px;
-    margin: 40px auto;
+    margin: 40px 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     display: flex;
@@ -27,7 +27,6 @@
 .article__text {
     text-align: center;
     color: #264C98;
-    margin: 0 20px;
 }
 
 .btn__container {
