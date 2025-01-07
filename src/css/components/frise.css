@@ -2,9 +2,7 @@
     width: 90%;
     margin: 30px auto;
     overflow-x: auto;
-    /* Scroll horizontal activé */
     white-space: nowrap;
-    /* Éléments sur une seule ligne */
     position: relative;
     background-color: #e1c5f6;
     border-radius: 10px;

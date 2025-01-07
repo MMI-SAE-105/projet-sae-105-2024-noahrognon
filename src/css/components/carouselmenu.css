@@ -1,31 +1,21 @@
-/* Conteneur principal */
 .carousel-container {
     position: relative;
     width: 80%;
-    
-    /* Largeur maximale du carousel */
     margin: 0 auto;
     overflow: hidden;
-    /* Cache les éléments qui dépassent */
     background-color: #e6e6fa;
-    /* Fond doux */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
 }
 
-/* Contenu défilant */
 .carousel-content {
     display: flex;
-    /* Met les items en ligne */
     transition: transform 0.5s ease-in-out;
-    /* Animation fluide */
 }
 
-/* Chaque élément du carousel */
 .carousel-item {
     flex: 0 0 100%;
-    /* Chaque item prend 100% de la largeur du conteneur */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,13 +23,8 @@
     text-align: center;
     box-sizing: border-box;
     background: #DDC9FD;
-    /* Fond blanc */
 }
 
-
-
-
-/* Navigation */
 .carousel-nav {
     position: absolute;
     top: 50%;

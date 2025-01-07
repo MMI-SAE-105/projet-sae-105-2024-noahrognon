@@ -1,47 +1,36 @@
 .carouselfilm__container {
     width: 100%;
     overflow-x: auto;
-    /* Défilement horizontal */
     padding: 20px 0;
     -webkit-overflow-scrolling: touch;
-    /* Scroll fluide sur mobile */
 }
 
-/* Carrousel */
 .carouselfilm {
     display: flex;
     gap: 15px;
     padding: 10px;
     flex-wrap: nowrap;
-    /* Empêche le retour à la ligne */
 }
 
-/* Cartes */
 .carouselfilm__card {
     flex: 0 0 auto;
-    /* Taille fixe */
     background-color: #d6b3ff;
     border-radius: 12px;
     text-align: center;
     width: 250px;
-    /* Largeur fixe */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     transition: transform 0.3s ease-in-out;
 }
 
 .carouselfilm__card:hover {
     transform: scale(1.05);
-    /* Effet zoom au survol */
 }
-
-
 
 .carouselfilm__card img {
     max-width: 100%;
     border-radius: 8px;
 }
 
-/* Scrollbar personnalisée pour le défilement */
 .carouselfilm__container::-webkit-scrollbar {
     height: 8px;
 }
@@ -55,10 +44,8 @@
     background-color: #444;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
     .carousel-card {
         width: 200px;
-        /* Réduit la taille des cartes sur mobile */
     }
 }

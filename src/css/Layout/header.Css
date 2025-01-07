@@ -26,3 +26,13 @@
     font-weight: 900;
     color: #741EFC;
 }
+.header__title__en {
+    padding: 0px;
+    display: flex;
+    margin-right: 32px;
+    font-size: 18px;
+    font-size: 'Orbitron', sans-serif;
+    font-weight: 900;
+    color: #741EFC;
+    margin-left: 45px;
+}

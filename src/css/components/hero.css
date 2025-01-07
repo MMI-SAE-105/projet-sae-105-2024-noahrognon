@@ -1,19 +1,15 @@
-/* Conteneur principal */
 .hero {
     position: relative;
-    width: 100%; /* Occupe toute la hauteur de l'écran */
-    overflow: hidden; /* Cache tout dépassement */
+    width: 100%;
+    overflow: hidden;
 }
 
-/* Image de fond */
 .hero__img {
     width: 100%;
-    object-fit: cover; /* Garde les proportions et couvre tout */
-    filter: brightness(0.8); /* Assombrit légèrement l'image */
+    object-fit: cover;
+    filter: brightness(0.8);
 }
 
-
-/* Texte principal */
 .hero__title {
     position: absolute;
     top: 130px;
@@ -22,7 +18,7 @@
     text-align: center;
     color: white;
     margin: 0;
-    z-index: 5; /* Assure que le texte est au-dessus de l'image */
+    z-index: 5;
 }
 
 .hero__text {
@@ -37,4 +33,3 @@
     margin: 0;
     z-index: 5;
 }
-
