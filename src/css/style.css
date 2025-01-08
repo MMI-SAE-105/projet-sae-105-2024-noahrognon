@@ -3,7 +3,7 @@
 @import "vendors/normalize.css";
 
 /* Utils */
-@import "utils/variables.css";
+@import "/src/css/utils/variable.Css";
 
 /* Base */
 @import "base/main.css";
